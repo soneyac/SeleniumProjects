@@ -1,0 +1,4 @@
+create table IF NOT EXISTS Employee(EmployeeID varchar(20) NOT NULL UNIQUE PRIMARY KEY, EmployeeFName varchar(20)  NOT NULL,EmployeeLName varchar(20), Address varchar(100)  NOT NULL) ;
+insert into Employee values((1001,'Soney', 'Chandra','12300 marion lane west'),(1002,'Shyam', 'Aramkuni','12300 marion lane west'),(1003,'Neha', 'Shyam','12300 marion lane west') );
+create table IF NOT EXISTS Salary(EmployeeID varchar(20) NOT NULL,Designation varchar(20) NOT NULL,Salary varchar(20) NOT NULL) ;
+insert into Salary values((1001,'Tester','70000'),(1002,'Director','170000'),(1003,'Manager','120000'));
